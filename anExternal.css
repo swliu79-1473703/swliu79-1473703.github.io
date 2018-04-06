@@ -8,13 +8,19 @@ body {
 }
 
 h1 {
-	
+	border-style: dotted;
+	width: 470px;
+	margin: auto; /* To center the dotted border + text */
 	
 }
 
 h2 {
 	color: #F67280; /* Blush || Color of text */
-	
+	border-radius: 25px;
+    background: #FEB195;
+    padding: 10px; 
+    width: 200px;
+    height: 25px; 
 }
 
 h5 {
@@ -42,6 +48,6 @@ p {
 
 }
 
-address {
-
+#rcorners1 {
+   
 }
