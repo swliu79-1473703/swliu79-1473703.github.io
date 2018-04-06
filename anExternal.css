@@ -11,7 +11,6 @@ h1 {
 	border-style: dotted;
 	width: 470px;
 	margin: auto; /* To center the dotted border + text */
-	
 }
 
 h2 {
@@ -26,18 +25,27 @@ h2 {
 h5 {
 	font-style: italic;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h6 {
+	text-align: center;
 	
 }
 
 p {
 	color: #FEB195;
-	
+}
+
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 #one {
 	font-weight: bold;
 	font-family: "Lucida Console", Monaco, monospace;
-	
 }
 #two {
 	font-family: "Lucida Console", Monaco, monospace;
@@ -45,9 +53,8 @@ p {
 
 #three {
 	font-family: "Courier New", Courier, monospace; 
-
 }
 
-#rcorners1 {
-   
+address {
+	float: right;
 }
