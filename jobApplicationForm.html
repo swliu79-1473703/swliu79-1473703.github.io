@@ -2,38 +2,24 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Job Application</title>
+	<title>Friendship Application</title>
+	<link href="jobAppForm.css" type="text/css" rel="stylesheet" /> 
 </head>
 <body>
 
-<h2>Job Application</h2>
+<h1>Friendship Application</h1>
+<h6> The most <strike>weirdest</strike> easiest application you'll ever apply to.</h6>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
 	<fieldset>
-		<legend>Account</legend>
+		<legend><b>Personal Information</b></legend>
 		<div class="field">
-			<label>Email:</label> 
-			<input type="text" name="email">
-		</div>
-		<div class="field">
-			<label>Password:</label> 
-			<input type="password" name="password">
-		</div>
-		<div class="field">
-			<label>Repeat password:</label> 
-			<input type="password" name="password_r">
-		</div>
-	</fieldset>
-
-	<fieldset>
-		<legend>Personal Information</legend>
-		<div class="field">
-			<label>Full Name:</label> 
+			<label>Name:</label> 
 			<input type="text" name="name">
 		</div>
 		<div class="field">
-			<label>Street Address:</label> 
+			<label>Address:</label> 
 			<input type="text" name="street">
 		</div>
 		<div class="field">
@@ -104,19 +90,19 @@
 	</fieldset>
 
 	<fieldset>
-		<legend>Availability</legend>
+		<legend><b>Availability</b></legend>
 		<div class="field">
-			<label>Are you legally able to be employed in this country?</label> 
+			<label>Are you capable enough to be my friend?</label> 
 			<input type="radio" name="legal" value="yes">Yes
-			<input type="radio" name="legal" value="no">No
+			<input type="radio" name="legal" value="yes">Yes
 		</div>
 		<div class="field">
-			<label>What type of position are you seeking? (check all that apply)</label>
+			<label>What type of friendship can you provide? (check all that apply)</label>
 			<ul>
-				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
-				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
-				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
-				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+				<li><input type="checkbox" name="position_pt" value="parttime">Temporary Friend</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Acquaintance</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Close Friend</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Best Friend</li>
 			</ul>
 		</div>
 		<div class="field">
@@ -157,14 +143,19 @@
 	</fieldset>
 
 	<fieldset>
-		<legend>Personal Statement</legend>
+		<legend><b>Questions</b></legend>
 		<div class="field">
-			<label>Why do you deserve this job?</label><br>
+			<label>Why did you want to be my friend?</label><br>
 			<textarea name="deserve" rows="6" cols="60"></textarea>
 		</div>
 		<div class="field">
-			<label>Describe a recent project:</label><br>
+			<label>Describe a recent friendship you had lately:</label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>So, does that mean you want to be my friend?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="yes">Yes
 		</div>
 	</fieldset>
 
